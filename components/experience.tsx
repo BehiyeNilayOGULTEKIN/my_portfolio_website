@@ -2,7 +2,12 @@
 
 import { useEffect, useRef, useState } from "react";
 
-export default function ExperienceCard({ title, company, date, description }) {
+export default function ExperienceCard({
+  title,
+  company,
+  date,
+  description,
+}: any) {
   const ref = useRef(null);
   const [visible, setVisible] = useState(false);
 
