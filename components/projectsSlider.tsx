@@ -4,23 +4,30 @@ import { useRef, useState, MouseEvent } from "react";
 const projects = [
   {
     id: 1,
+    title: "Prophet Gold Price Prediction",
+    image: "/indir (2).png",
+  },
+  {
+    id: 2,
     title: "Olympic Data Analysis for Data Vizz Microsoft",
     image: "/Ekran görüntüsü 2026-02-01 024728.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Sea Level Rise Analysis for Dat Vizz Microsoft",
     image: "/Ekran görüntüsü 2026-01-26 024547.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "LLM models to analyze netstat reporting",
-    image: "/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg",
+    image:
+      "/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg",
   },
   {
-    id: 4,
+    id: 5,
     title: "more too see -> github!",
-    image: "/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg",
+    image:
+      "/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg",
   },
 ];
 
